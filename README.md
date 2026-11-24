@@ -1,7 +1,7 @@
 <div align="center">
 
 <p align="center">
-  <img src="./assets/banner.svg" alt="Awesome Desktop Notifications & Team Collaboration Banner" width="100%" />
+  <img src="https://raw.githubusercontent.com/ishandutta2007/Awesome-Desktop-Notifications-Team-Collaboration/main/assets/banner.svg" alt="Awesome Desktop Notifications & Team Collaboration Banner" width="100%" />
 </p>
 
 # 🔔 Awesome Desktop Notifications & Team Collaboration
