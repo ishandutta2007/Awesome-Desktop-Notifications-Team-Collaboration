@@ -32,79 +32,31 @@ Contributions welcome! Open a PR to add/update entries. Keep descriptions factua
 
 ## Table of Contents
 
+- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
 - [SaaS/Hosted Platforms](#saashosted-platforms)
-
 - [Open-Source GitHub Projects](#open-source-github-projects)
-
 - [How to Contribute](#how-to-contribute)
-
 - [Support & Share](#support--share)
-
 - [Disclaimer](#disclaimer)
 
+## Sector Overview & Market Dynamics
 
+The notification infrastructure and team messaging alert sector is estimated at approximately $4 billion to $15 billion globally, expanding at an estimated 16%–26% CAGR. While the foundational device-delivery layer remains heavily concentrated under an Apple (APNs) and Google (FCM) duopoly and enterprise chat is led by mega-caps, the developer infrastructure and multi-channel routing layer is moderately fragmented with fierce competition across API-first orchestration platforms, niche desktop daemons, and open-source gateways.
 
 ## SaaS/Hosted Platforms
 
-
-
-- **[Pushover](https://pushover.net)**  
-
-  Simple, reliable cross-platform push notification service delivering real-time alerts to iOS, Android, and desktop browsers via a straightforward HTTP REST API and email gateway.
-
-
-
-- **[Novu Cloud](https://novu.co)**  
-
-  Managed cloud edition of Novu providing an embeddable `<Inbox />` component, multi-channel workflow orchestration (push, email, SMS, chat), and user preference centers.
-
-
-
-- **[Knock](https://knock.app)**  
-
-  Developer-first notification infrastructure platform offering cross-channel routing, smart batching/digests, observability logs, and drop-in React/mobile feed components.
-
-
-
-- **[Courier](https://courier.com)**  
-
-  Cloud notification API and visual workflow designer unifying push notifications, Slack/Teams messages, SMS, and transactional email with delivery routing rules.
-
-
-
-- **[OneSignal](https://onesignal.com)**  
-
-  High-volume customer engagement and push notification platform supporting web push, mobile push, in-app messaging, and automated audience segmentation.
-
-
-
-- **[MagicBell](https://magicbell.com)**  
-
-  Embeddable notification inbox and real-time push infrastructure featuring multi-device read-state synchronization, smart delivery preferences, and WebSocket updates.
-
-
-
-- **[Slack Notifications & Incoming Webhooks](https://slack.com)**  
-
-  Ubiquitous team collaboration alert pipeline allowing automated bots, monitoring tools, and CI/CD workflows to post interactive Block Kit notifications to team channels.
-
-
-
-- **[Discord Webhooks](https://discord.com)**  
-
-  Zero-config HTTP webhook endpoints for streaming structured embed alerts, build statuses, and community notifications directly into Discord channels.
-
-
-
-- **[Pushbullet](https://pushbullet.com)**  
-
-  Cross-device notification mirroring and quick-link/file-pushing service bridging Android notifications, SMS replies, and desktop browsers.
-
-
-
-- **[Twilio Notify / Twilio Messaging & Push APIs](https://twilio.com)**  
-
-  Cloud communications API suite orchestrating multi-channel alerts across SMS, WhatsApp, Firebase/APNs mobile push, and voice webhooks.
+| Company / Product | Size (Valuation / Revenue) | Starting Tier Pricing | Free Tier Limits | Description |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Slack Notifications & Incoming Webhooks](https://slack.com)** | **$27.7B valuation** (Acquired by Salesforce; ~$3B+ ARR) | $8.75/user/month ($7.25/user/month billed annually) | 90-day message & file history, max 10 app integrations, 1:1 huddles | Ubiquitous team collaboration alert pipeline allowing automated bots, monitoring tools, and CI/CD workflows to post interactive Block Kit notifications to team channels. |
+| **[Twilio Notify / Twilio Messaging & Push APIs](https://twilio.com)** | **$26B–$31B market cap** (~$5.83B TTM revenue) | Pay-as-you-go starting at $0.0083/message segment (US SMS) | 30-day free trial with 100 SMS messages (to verified numbers only) and $15.50 trial credit | Cloud communications API suite orchestrating multi-channel alerts across SMS, WhatsApp, Firebase/APNs mobile push, and voice webhooks. |
+| **[Discord Webhooks](https://discord.com)** | **$7B–$10B valuation** (~$950M ARR) | $2.99/month (Nitro Basic) or $9.99/month (Nitro standard) | Free forever: 2,000 chars/message, up to 10 embeds, 30 requests/min rate limit per channel, 10 MB file uploads | Zero-config HTTP webhook endpoints for streaming structured embed alerts, build statuses, and community notifications directly into Discord channels. |
+| **[OneSignal](https://onesignal.com)** | **$84.2M funding** (~$21M–$25M ARR) | $19/month (Growth Plan) | 1,000 Mobile Push MAUs, 10,000 web push subscribers, 10,000 emails/month, 3 active Journeys | High-volume customer engagement and push notification platform supporting web push, mobile push, in-app messaging, and automated audience segmentation. |
+| **[Courier](https://courier.com)** | **$57M funding** (Series B) | $0.005/send (Business Plan pay-as-you-go over free tier) | 10,000 sends/month free forever (1 send = 1 notification template across any channels) | Cloud notification API and visual workflow designer unifying push notifications, Slack/Teams messages, SMS, and transactional email with delivery routing rules. |
+| **[Knock](https://knock.app)** | **$18M funding** (Series A) | $250/month (Starter Plan) | 10,000 messages/month, 500 guide recipients/month, 500 agent credits/month | Developer-first notification infrastructure platform offering cross-channel routing, smart batching/digests, observability logs, and drop-in React/mobile feed components. |
+| **[Novu Cloud](https://novu.co)** | **$6.6M funding** (Seed) | $30/month (Pro Plan) | 10,000 workflow runs/month, 5 workflows, 2 environments, 3 team members, 24-hr activity retention | Managed cloud edition of Novu providing an embeddable `<Inbox />` component, multi-channel workflow orchestration (push, email, SMS, chat), and user preference centers. |
+| **[MagicBell](https://magicbell.com)** | **$20M valuation** ($4.7M funding, ~$1.2M ARR) | $249/month (Startup Plan) | 1,000 deliveries/month, 1 project, unlimited users & team members | Embeddable notification inbox and real-time push infrastructure featuring multi-device read-state synchronization, smart delivery preferences, and WebSocket updates. |
+| **[Pushbullet](https://pushbullet.com)** | **$1.62M funding** (Seed / Bootstrapped) | $4.99/month or $39.99/year ($3.33/month) (Pro Plan) | 100 SMS messages/month, 500 pushes/month, 25 MB max file size, 2 GB total cloud storage | Cross-device notification mirroring and quick-link/file-pushing service bridging Android notifications, SMS replies, and desktop browsers. |
+| **[Pushover](https://pushover.net)** | **Bootstrapped / Profitable Micro-SaaS** (Pushover LLC) | $4.99 one-time purchase per platform (iOS, Android, Desktop) | 30-day free trial on apps; developer token allows up to 10,000 messages/month | Simple, reliable cross-platform push notification service delivering real-time alerts to iOS, Android, and desktop browsers via a straightforward HTTP REST API and email gateway. |
 
 
 
