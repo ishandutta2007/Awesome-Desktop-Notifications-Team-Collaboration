@@ -1,128 +1,57 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 400" width="1200" height="400">
+<svg width="1000" height="260" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <!-- Background Gradients -->
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#0b0f19" />
-      <stop offset="50%" stop-color="#111827" />
-      <stop offset="100%" stop-color="#080c14" />
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0f172a;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#1e1b4b;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#311042;stop-opacity:1" />
     </linearGradient>
-
-    <!-- Glowing Text Gradient -->
-    <linearGradient id="titleGrad" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#818cf8" />
-      <stop offset="50%" stop-color="#c084fc" />
-      <stop offset="100%" stop-color="#f472b6" />
-      <animate attributeName="x1" values="0%; 100%; 0%" dur="8s" repeatCount="indefinite" />
-      <animate attributeName="x2" values="100%; 200%; 100%" dur="8s" repeatCount="indefinite" />
+    <linearGradient id="textGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#38bdf8;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#818cf8;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#f472b6;stop-opacity:1" />
     </linearGradient>
-
-    <!-- Card Background Gradient -->
-    <linearGradient id="cardBg" x1="0%" y1="0%" x2="0%" y2="100%">
-      <stop offset="0%" stop-color="#1e293b" />
-      <stop offset="100%" stop-color="#0f172a" />
-    </linearGradient>
-
-    <!-- Grid Pattern -->
-    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
-      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="1" />
-      <circle cx="40" cy="40" r="1" fill="#334155" />
-    </pattern>
-
-    <!-- Ambient Radial Glows -->
-    <radialGradient id="glowLeft" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.3" />
-      <stop offset="100%" stop-color="#4f46e5" stop-opacity="0" />
-    </radialGradient>
-
-    <radialGradient id="glowRight" cx="50%" cy="50%" r="50%">
-      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.25" />
-      <stop offset="100%" stop-color="#ec4899" stop-opacity="0" />
-    </radialGradient>
   </defs>
 
-  <!-- Canvas Background -->
-  <rect width="1200" height="400" fill="url(#bg)" />
-  <rect width="1200" height="400" fill="url(#grid)" />
+  <!-- Background Base -->
+  <rect width="1000" height="260" rx="16" fill="url(#bgGrad)" stroke="#334155" stroke-width="2" />
 
-  <!-- Glowing Ambient Circles -->
-  <circle cx="180" cy="120" r="180" fill="url(#glowLeft)" />
-  <circle cx="1020" cy="280" r="200" fill="url(#glowRight)" />
-
-  <!-- Animated Data Flow Line 1 -->
-  <path d="M 50,330 C 300,370 420,270 600,290 C 780,310 940,230 1150,260" fill="none" stroke="#6366f1" stroke-width="2" stroke-opacity="0.4" stroke-dasharray="8 12">
-    <animate attributeName="stroke-dashoffset" values="160; 0" dur="12s" repeatCount="indefinite" />
-  </path>
-
-  <!-- Animated Data Flow Line 2 -->
-  <path d="M 50,90 C 260,60 450,140 650,110 C 850,80 980,160 1150,120" fill="none" stroke="#a855f7" stroke-width="1.5" stroke-opacity="0.35" stroke-dasharray="6 10">
-    <animate attributeName="stroke-dashoffset" values="0; 160" dur="14s" repeatCount="indefinite" />
-  </path>
-
-  <!-- Floating Toast Card 1 (Left) -->
-  <g transform="translate(60, 240)">
-    <animateTransform attributeName="transform" type="translate" values="60,240; 60,228; 60,240" dur="6s" repeatCount="indefinite" />
-    <rect width="250" height="72" rx="12" fill="url(#cardBg)" stroke="#334155" stroke-width="1" />
-    <circle cx="36" cy="36" r="14" fill="#065f46" />
-    <circle cx="36" cy="36" r="6" fill="#10b981" />
-    <text x="64" y="32" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="bold">CI/CD Build Deployed</text>
-    <text x="64" y="52" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11">ntfy &bull; Production Alert</text>
-  </g>
-
-  <!-- Floating Toast Card 2 (Right) -->
-  <g transform="translate(890, 80)">
-    <animateTransform attributeName="transform" type="translate" values="890,80; 890,92; 890,80" dur="7s" repeatCount="indefinite" />
-    <rect width="250" height="72" rx="12" fill="url(#cardBg)" stroke="#334155" stroke-width="1" />
-    <circle cx="36" cy="36" r="14" fill="#312e81" />
-    <circle cx="36" cy="36" r="6" fill="#818cf8" />
-    <text x="64" y="32" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="bold">Team Alert Dispatched</text>
-    <text x="64" y="52" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="11">Apprise &bull; Multi-Channel</text>
-  </g>
-
-  <!-- Category Pill Badge -->
-  <g transform="translate(460, 45)">
-    <rect width="280" height="34" rx="17" fill="#1e1b4b" stroke="#6366f1" stroke-width="1" />
-    <circle cx="20" cy="17" r="5" fill="#22c55e">
-      <animate attributeName="opacity" values="1; 0.4; 1" dur="2s" repeatCount="indefinite" />
-    </circle>
-    <text x="35" y="22" fill="#c7d2fe" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="bold" letter-spacing="1">CURATED DEVELOPER ECOSYSTEM</text>
-  </g>
+  <!-- Category Tag -->
+  <rect x="360" y="24" width="280" height="30" rx="15" fill="#1e293b" stroke="#6366f1" stroke-width="1.5" />
+  <circle cx="378" cy="39" r="5" fill="#22c55e">
+    <animate attributeName="opacity" values="1;0.4;1" dur="2s" repeatCount="indefinite" />
+  </circle>
+  <text x="395" y="44" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#c7d2fe" letter-spacing="1">
+    CURATED DEVELOPER ECOSYSTEM
+  </text>
 
   <!-- Main Title -->
-  <text x="600" y="142" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="44" font-weight="bold" letter-spacing="-0.5">
+  <text x="500" y="105" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="34" font-weight="bold" fill="#ffffff">
     Awesome Desktop Notifications
   </text>
 
   <!-- Subtitle with Dynamic Gradient -->
-  <text x="600" y="195" text-anchor="middle" fill="url(#titleGrad)" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="32" font-weight="bold" letter-spacing="-0.2">
+  <text x="500" y="148" text-anchor="middle" font-family="Arial, Helvetica, sans-serif" font-size="25" font-weight="bold" fill="url(#textGrad)">
     &amp; Team Collaboration Alerts
+    <animate attributeName="opacity" values="0.85;1;0.85" dur="3s" repeatCount="indefinite" />
   </text>
 
-  <!-- Descriptive Tagline -->
-  <text x="600" y="240" text-anchor="middle" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif" font-size="16">
-    Self-Hosted Push Daemons &bull; Real-Time Multi-Channel Routers &bull; Notification Infrastructure
+  <!-- Tagline -->
+  <text x="500" y="185" text-anchor="middle" font-family="Arial, sans-serif" font-size="14" fill="#94a3b8">
+    Push Daemons &bull; Webhook Event Pipelines &bull; Multi-Channel Routers &bull; In-App Hubs
   </text>
 
-  <!-- Feature Pills Row -->
-  <g transform="translate(185, 280)">
-    <!-- Pill 1 -->
-    <g transform="translate(0, 0)">
-      <rect width="180" height="36" rx="18" fill="#1e293b" stroke="#334155" stroke-width="1" />
-      <text x="90" y="23" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold">&#9889; Webhook Pipelines</text>
-    </g>
-    <!-- Pill 2 -->
-    <g transform="translate(195, 0)">
-      <rect width="180" height="36" rx="18" fill="#1e293b" stroke="#334155" stroke-width="1" />
-      <text x="90" y="23" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold">&#128276; Push &amp; Toast Daemons</text>
-    </g>
-    <!-- Pill 3 -->
-    <g transform="translate(390, 0)">
-      <rect width="195" height="36" rx="18" fill="#1e293b" stroke="#334155" stroke-width="1" />
-      <text x="97" y="23" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold">&#128236; In-App Notification Feeds</text>
-    </g>
-    <!-- Pill 4 -->
-    <g transform="translate(600, 0)">
-      <rect width="230" height="36" rx="18" fill="#1e293b" stroke="#334155" stroke-width="1" />
-      <text x="115" y="23" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, sans-serif" font-size="13" font-weight="bold">&#128257; Cross-Channel Dispatchers</text>
-    </g>
+  <!-- Feature Pills -->
+  <g transform="translate(130, 205)">
+    <rect x="0" y="0" width="165" height="32" rx="16" fill="#1e293b" stroke="#475569" stroke-width="1" />
+    <text x="82" y="21" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">&#9889; Webhook Alerts</text>
+
+    <rect x="180" y="0" width="175" height="32" rx="16" fill="#1e293b" stroke="#475569" stroke-width="1" />
+    <text x="267" y="21" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">&#128276; Desktop Daemons</text>
+
+    <rect x="370" y="0" width="175" height="32" rx="16" fill="#1e293b" stroke="#475569" stroke-width="1" />
+    <text x="457" y="21" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">&#128236; In-App Feeds</text>
+
+    <rect x="560" y="0" width="180" height="32" rx="16" fill="#1e293b" stroke="#475569" stroke-width="1" />
+    <text x="650" y="21" text-anchor="middle" font-family="Arial, sans-serif" font-size="12" font-weight="bold" fill="#e2e8f0">&#128257; Multi-Channel</text>
   </g>
 </svg>
