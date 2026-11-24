@@ -81,7 +81,7 @@ The following SaaS and hosted notification platforms provide managed infrastruct
 
 ## ⭐ Open-Source GitHub Projects
 
-Explore the finest self-hosted, privacy-first, and open-source notification projects. All repositories below are **sorted in descending order by GitHub Stars_Count**, featuring a real-time Stars_Badge linking directly to each repository's stargazers page.
+Explore the finest self-hosted, privacy-first, and open-source notification projects. All repositories below are **sorted in descending order by GitHub_Stars_Count**, featuring a real-time Stars_Badge linking directly to each repository's stargazers page.
 
 ### 🌟 Top Open-Source Repositories (Ranked by Stars)
 
