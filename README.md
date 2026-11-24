@@ -1,49 +1,68 @@
-# Awesome-Desktop-Notifications-Team-Collaboration
+<div align="center">
 
-markdown
+<p align="center">
+  <img src="assets/banner.svg" alt="Awesome Desktop Notifications & Team Collaboration Banner" width="100%" />
+</p>
 
-## Top Desktop Notifications & Team Collaboration Ecosystem
+# 🔔 Awesome Desktop Notifications & Team Collaboration
 
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Desktop-Notifications-Team-Collaboration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Desktop-Notifications-Team-Collaboration?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Desktop-Notifications-Team-Collaboration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Desktop-Notifications-Team-Collaboration?style=social" alt="GitHub Forks" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Desktop-Notifications-Team-Collaboration/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="MIT License" /></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
 
+<p align="center">
+  <strong>Curated Directory of Open-Source Projects, Self-Hosted Daemons &amp; SaaS Notification Infrastructure</strong><br>
+  <em>Push Notifications &bull; Desktop Alert Daemons &bull; Webhook Event Pipelines &bull; Multi-Channel Alert Routers &bull; In-App Notification Hubs</em>
+</p>
 
-**Curated List of SaaS/Hosted Platforms & Open-Source GitHub Projects**  
+</div>
 
-*Focused on Self-Hosted Push Notifications, Notification Infrastructure, Multi-Channel Alert Routers, Desktop Toast Daemons & Team Notification Hubs*  
+---
 
-**Last updated: November 2026**
+## 📌 Overview & SEO Summary
 
+Welcome to the definitive, SEO-optimized awesome list tracking the **Desktop Notifications & Team Collaboration Ecosystem**. Whether you are building real-time developer monitoring alerts, integrating cross-platform desktop toast notifications, hosting private push servers, or orchestrating high-volume multi-channel incident dispatches across Slack, Discord, SMS, and WebPush, this repository curates the industry's premier tools.
 
+### 🎯 Key Highlights:
+- 🚀 **Self-Hosted & Privacy-Preserving Push Services**: `ntfy`, `Gotify`, and `Apprise` for zero-tracking alerting pipelines.
+- 💻 **Desktop Toast Daemons & Notification Systems**: `Dunst`, `Mako`, `SwayNC`, and `beeep` for native Linux, macOS, and Windows toast integration.
+- ⚡ **Multi-Channel Notification Infrastructure**: `Novu`, `Knock`, and `Courier` for centralizing in-app inboxes, email, push, and team chat.
+- 💬 **Team Collaboration & Chat Alert Hubs**: `Rocket.Chat`, `Mattermost`, `Zulip`, `Slack`, and `Discord` for interactive team bot webhooks.
+- 📱 **Device Sync & Mirroring**: `KDE Connect` and `Pushbullet` for bridging mobile SMS and app notifications to developer desktops.
 
-This repository tracks notable **SaaS/hosted platforms** and **open-source projects** for **Desktop Notifications & Team Collaboration**. These tools send, route, batch, prioritize, and display real-time desktop alerts, mobile push notifications, webhook digests, and multi-channel team notifications across developer workstations, CI/CD pipelines, monitoring stacks, and collaborative applications.
+---
 
+## 📑 Table of Contents
 
+- [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
+- [🏢 SaaS/Hosted Platforms](#-saashosted-platforms)
+- [⭐ Open-Source GitHub Projects](#-open-source-github-projects)
+  - [Top Open-Source Repositories (Ranked by Stars)](#-top-open-source-repositories-ranked-by-stars)
+  - [Architectural Patterns & Custom Systems](#-architectural-patterns--custom-systems)
+- [📈 Star History](#-star-history)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [💖 Support & Share](#-support--share)
+- [⚠️ Disclaimer](#-disclaimer)
 
-**Examples** include Pushover, Pushbullet, Slack Notifications, Discord Webhooks, OneSignal, Courier, Novu, Knock, MagicBell, Twilio Notify, and Louis-CFM/coucou (the category leaders and popular runtimes). 
+---
 
+## 📊 Sector Overview & Market Dynamics
 
+The notification infrastructure and team messaging alert sector is estimated at approximately **$4 billion to $15 billion globally**, expanding at an estimated **16%–26% CAGR**. 
 
-**Open-source emphasis**: This section is heavily expanded with every major active project for self-hosted push & desktop notifications (`ntfy`, `Gotify`, `Louis-CFM/coucou`, `Apprise`), open-source notification infrastructure & in-app inbox engines (`Novu`, `Wolfx`, `Notifire`), and Linux/cross-platform desktop notification daemons (`Dunst`, `Mako`, `SwayNC`) — ideal for DevOps engineers, sysadmins, full-stack developers, and remote teams.
+- **Concentrated Foundation (Duopoly)**: The underlying device-delivery ecosystem remains heavily concentrated under an Apple (APNs) and Google (FCM) duopoly at the operating system level, alongside mega-cap enterprise team chat platforms (Slack/Salesforce, Microsoft Teams).
+- **Fragmented Developer Infrastructure**: The multi-channel developer infrastructure, alert dispatch, and notification orchestration market is moderately fragmented. Fierce competition exists across API-first orchestration platforms, open-source self-hosted daemons, and unified routing gateways as engineering teams seek independence from proprietary vendor lock-in.
 
+---
 
+## 🏢 SaaS/Hosted Platforms
 
-Contributions welcome! Open a PR to add/update entries. Keep descriptions factual and link to official sites.
-
-
-
-## Table of Contents
-
-- [Sector Overview & Market Dynamics](#sector-overview--market-dynamics)
-- [SaaS/Hosted Platforms](#saashosted-platforms)
-- [Open-Source GitHub Projects](#open-source-github-projects)
-- [How to Contribute](#how-to-contribute)
-- [Support & Share](#support--share)
-- [Disclaimer](#disclaimer)
-
-## Sector Overview & Market Dynamics
-
-The notification infrastructure and team messaging alert sector is estimated at approximately $4 billion to $15 billion globally, expanding at an estimated 16%–26% CAGR. While the foundational device-delivery layer remains heavily concentrated under an Apple (APNs) and Google (FCM) duopoly and enterprise chat is led by mega-caps, the developer infrastructure and multi-channel routing layer is moderately fragmented with fierce competition across API-first orchestration platforms, niche desktop daemons, and open-source gateways.
-
-## SaaS/Hosted Platforms
+The following SaaS and hosted notification platforms provide managed infrastructure, high deliverability rates, and cross-channel orchestration. Entries are sorted in **descending order by company size, valuation, or annual revenue**.
 
 | Company / Product | Size (Valuation / Revenue) | Starting Tier Pricing | Free Tier Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
@@ -58,156 +77,131 @@ The notification infrastructure and team messaging alert sector is estimated at 
 | **[Pushbullet](https://pushbullet.com)** | **$1.62M funding** (Seed / Bootstrapped) | $4.99/month or $39.99/year ($3.33/month) (Pro Plan) | 100 SMS messages/month, 500 pushes/month, 25 MB max file size, 2 GB total cloud storage | Cross-device notification mirroring and quick-link/file-pushing service bridging Android notifications, SMS replies, and desktop browsers. |
 | **[Pushover](https://pushover.net)** | **Bootstrapped / Profitable Micro-SaaS** (Pushover LLC) | $4.99 one-time purchase per platform (iOS, Android, Desktop) | 30-day free trial on apps; developer token allows up to 10,000 messages/month | Simple, reliable cross-platform push notification service delivering real-time alerts to iOS, Android, and desktop browsers via a straightforward HTTP REST API and email gateway. |
 
+---
 
+## ⭐ Open-Source GitHub Projects
 
+Explore the finest self-hosted, privacy-first, and open-source notification projects. All repositories below are **sorted in descending order by GitHub Star count**, featuring a real-time star badge linking directly to each repository's stargazers page.
 
+### 🌟 Top Open-Source Repositories (Ranked by Stars)
 
-## Open-Source GitHub Projects
+1. **[n8n](https://github.com/n8n-io/n8n)** [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
+   ⚡ Fair-code workflow automation platform with 400+ native integrations connecting webhooks, incident alerts, CI/CD statuses, and team chat channels with visual logic.
 
+2. **[Uptime Kuma](https://github.com/louislam/uptime-kuma)** [![GitHub stars](https://img.shields.io/github/stars/louislam/uptime-kuma?style=social&color=white)](https://github.com/louislam/uptime-kuma/stargazers)  
+   📈 Self-hosted monitoring tool featuring an intuitive UI, fast ping/HTTP/certificate checks, and built-in dispatch to 90+ notification services (Telegram, Discord, Slack, ntfy, Gotify, Apprise).
 
+3. **[Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)** [![GitHub stars](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=social&color=white)](https://github.com/RocketChat/Rocket.Chat/stargazers)  
+   🚀 Comprehensive open-source communications hub and team collaboration platform featuring omni-channel messaging, desktop notifications, VoIP, and enterprise-grade webhook integrations.
 
-- **[Louis-CFM/coucou](https://github.com)**  
+4. **[Novu](https://github.com/novuhq/novu)** [![GitHub stars](https://img.shields.io/github/stars/novuhq/novu?style=social&color=white)](https://github.com/novuhq/novu/stargazers)  
+   📬 Open-source developer notification infrastructure offering a unified API, visual workflow builder, digest engine, user preference center, and embeddable React/Vue in-app notification center.
 
-  Open-source desktop notification and team ping utility engineered for lightweight, unobtrusive team collaboration and instant desktop alerts.
+5. **[Mattermost](https://github.com/mattermost/mattermost)** [![GitHub stars](https://img.shields.io/github/stars/mattermost/mattermost?style=social&color=white)](https://github.com/mattermost/mattermost/stargazers)  
+   💬 Open-source, self-hosted Slack alternative engineered for technical and security-conscious teams, with granular webhook payloads, slash commands, and desktop/mobile push relays.
 
+6. **[ntfy](https://github.com/binwiederhier/ntfy)** [![GitHub stars](https://img.shields.io/github/stars/binwiederhier/ntfy?style=social&color=white)](https://github.com/binwiederhier/ntfy/stargazers)  
+   🔔 Simple, blazing-fast HTTP-based pub-sub notification service written in Go. Send desktop alerts or mobile push notifications via simple `curl` `PUT`/`POST` requests without sign-ups.
 
+7. **[Zulip](https://github.com/zulip/zulip)** [![GitHub stars](https://img.shields.io/github/stars/zulip/zulip?style=social&color=white)](https://github.com/zulip/zulip/stargazers)  
+   🧵 Organized team chat application that blends real-time conversation with email-style threading, complete with robust incoming webhook integrations and native desktop alerts.
 
-- **[ntfy (`binwiederhier/ntfy`)](https://github.com)**  
+8. **[Apprise](https://github.com/caronc/apprise)** [![GitHub stars](https://img.shields.io/github/stars/caronc/apprise?style=social&color=white)](https://github.com/caronc/apprise/stargazers)  
+   🌐 Python library and microservice gateway providing a unified notification dispatch syntax across 100+ services including Discord, Telegram, Slack, ntfy, Gotify, and native desktop notifications.
 
-  Flagship HTTP-based pub-sub notification service written in Go allowing you to send push notifications to your desktop or phone via simple `curl` `PUT`/`POST` scripts with zero sign-up required.
+9. **[Gotify](https://github.com/gotify/server)** [![GitHub stars](https://img.shields.io/github/stars/gotify/server?style=social&color=white)](https://github.com/gotify/server/stargazers)  
+   🛡️ Self-hosted WebSocket push notification server written in Go with a sleek web UI, CLI client, and Android/desktop push delivery capabilities.
 
+10. **[Prometheus Alertmanager](https://github.com/prometheus/alertmanager)** [![GitHub stars](https://img.shields.io/github/stars/prometheus/alertmanager?style=social&color=white)](https://github.com/prometheus/alertmanager/stargazers)  
+    🚨 Production-grade alert handling engine that deduplicates, groups, silences, and routes monitoring metrics from Prometheus to Opsgenie, PagerDuty, Slack, email, or custom webhooks.
 
+11. **[Louis-CFM/coucou](https://github.com/Louis-CFM/coucou)** [![GitHub stars](https://img.shields.io/github/stars/Louis-CFM/coucou?style=social&color=white)](https://github.com/Louis-CFM/coucou/stargazers)  
+    👋 Minimalist desktop notification and peer team ping tool crafted for fast, lightweight team collaboration and instantaneous desktop awareness.
 
-- **[Novu (`novuhq/novu`)](https://github.com)**  
+12. **[node-notifier](https://github.com/mikaelbr/node-notifier)** [![GitHub stars](https://img.shields.io/github/stars/mikaelbr/node-notifier?style=social&color=white)](https://github.com/mikaelbr/node-notifier/stargazers)  
+    🖥️ Flexible Node.js module to send native cross-platform desktop notifications on macOS (Notification Center), Windows (Toast / balloon), and Linux (notify-send).
 
-  Leading open-source notification infrastructure for developers providing a unified API, visual workflow editor, digest engine, and drop-in in-app notification center component.
+13. **[Dunst](https://github.com/dunst-project/dunst)** [![GitHub stars](https://img.shields.io/github/stars/dunst-project/dunst?style=social&color=white)](https://github.com/dunst-project/dunst/stargazers)  
+    🐧 Highly customizable, lightweight notification daemon for X11 and Wayland environments supporting custom action rules, keyboard shortcuts, and script triggers.
 
+14. **[KDE Connect](https://github.com/KDE/kdeconnect-kde)** [![GitHub stars](https://img.shields.io/github/stars/KDE/kdeconnect-kde?style=social&color=white)](https://github.com/KDE/kdeconnect-kde/stargazers)  
+    📲 Seamless multi-device integration utility syncing phone notifications, SMS replies, media controls, and shared clipboard securely to desktop operating systems over local Wi-Fi.
 
+15. **[web-push](https://github.com/web-push-libs/web-push)** [![GitHub stars](https://img.shields.io/github/stars/web-push-libs/web-push?style=social&color=white)](https://github.com/web-push-libs/web-push/stargazers)  
+    🌐 Foundational VAPID Web Push protocol implementation for sending push notifications directly to browser runtimes without reliance on proprietary third-party proxies.
 
-- **[Gotify (`gotify/server`)](https://github.com)**  
+16. **[Mako](https://github.com/emersion/mako)** [![GitHub stars](https://img.shields.io/github/stars/emersion/mako?style=social&color=white)](https://github.com/emersion/mako/stargazers)  
+    🪟 Lightweight Wayland-native notification daemon designed specifically for Sway, wlroots, and modern minimal Wayland compositors.
 
-  Simple, self-hosted open-source server written in Go for sending and receiving real-time push messages via WebSockets and a clean REST API with web and Android clients.
+17. **[SwayNotificationCenter (SwayNC)](https://github.com/ErikReider/SwayNotificationCenter)** [![GitHub stars](https://img.shields.io/github/stars/ErikReider/SwayNotificationCenter?style=social&color=white)](https://github.com/ErikReider/SwayNotificationCenter/stargazers)  
+    🎛️ Feature-rich, GTK-powered notification center and desktop daemon for Wayland compositors with Do-Not-Disturb toggles, notification widgets, and customizable CSS styling.
 
+18. **[Statping-ng](https://github.com/statping-ng/statping-ng)** [![GitHub stars](https://img.shields.io/github/stars/statping-ng/statping-ng?style=social&color=white)](https://github.com/statping-ng/statping-ng/stargazers)  
+    📊 Open-source status page and monitoring server that sends outage and health check notifications across Discord, Slack, email, and webhooks.
 
+19. **[beeep](https://github.com/gen2brain/beeep)** [![GitHub stars](https://img.shields.io/github/stars/gen2brain/beeep?style=social&color=white)](https://github.com/gen2brain/beeep/stargazers)  
+    🔔 Pure Go cross-platform library for sending native desktop toast notifications and beeps across Windows, macOS, Linux, and FreeBSD.
 
-- **[Apprise (`caronc/apprise`)](https://github.com)**  
+20. **[Shoutrrr](https://github.com/containrrr/shoutrrr)** [![GitHub stars](https://img.shields.io/github/stars/containrrr/shoutrrr?style=social&color=white)](https://github.com/containrrr/shoutrrr/stargazers)  
+    📦 Golang notification library and CLI utility tailor-made for Docker containers and cloud infrastructure to dispatch alerts across Slack, Discord, Gotify, Pushover, and Teams.
 
-  Essential open-source Python library and CLI/microservice gateway providing a single unified syntax to dispatch notifications to 100+ services (ntfy, Gotify, Slack, Discord, Matrix, Telegram, desktop).
-
-
-
-- **[Shoutrrr (`containrrr/shoutrrr`)](https://github.com)**  
-
-  Lightweight open-source notification library and CLI written in Go engineered for Docker containers and CLI tools to send alerts across Slack, Discord, Gotify, Pushover, and SMTP.
-
-
-
-- **[Dunst (`dunst-project/dunst`)](https://github.com)**  
-
-  Highly customizable, lightweight open-source X11/Wayland desktop notification daemon for Linux supporting rule-based filtering, action buttons, and script triggers.
-
-
-
-- **[Mako (`emersion/mako`) & SwayNC (`ErikReider/SwayNotificationCenter`)](https://github.com)**  
-
-  Modern open-source Wayland desktop notification daemons offering interactive notification centers, Do-Not-Disturb toggles, and CSS-styled desktop alerts.
-
-
-
-- **[KDE Connect (`KDE/kdeconnect-kde`)](https://github.com)**  
-
-  Popular open-source cross-platform tool (Linux, Windows, macOS, Android, iOS) that syncs phone notifications, SMS replies, clipboard, and media controls seamlessly to your desktop over local Wi-Fi.
-
-
-
-- **[Loudness / Notifire & Wolfx (`wolfx-org/wolfx`)](https://github.com)**  
-
-  Open-source multi-channel notification infrastructure and provider abstraction platform for managing templates, triggers, and delivery logs across push, email, and chat.
-
-
-
-- **[web-push (`web-push-libs/web-push`)](https://github.com)**  
-
-  Foundational open-source VAPID Web Push protocol libraries (Node.js, Python, Go, Rust, PHP) enabling standards-based browser desktop notifications without third-party SaaS brokers.
-
-
-
-### Additional Strong Open-Source Options
-
-
-
-- **[Alertmanager (`prometheus/alertmanager`)](https://github.com)** for open-source alert deduplication, grouping, silencing, and routing from Prometheus/monitoring stacks to team chat and push receivers.
-
-- **[Mattermost (`mattermost/mattermost`)](https://github.com)** and **[Zulip (`zulip/zulip`)](https://github.com)** for self-hosted open-source team collaboration hubs with rich incoming webhook and bot notification APIs.
-
-- **[n8n (`n8n-io/n8n`)](https://github.com)** for visual open-source workflow automation connecting webhooks, GitHub events, and monitoring alerts into customized team notifications.
-
-- **[node-notifier (`mikaelbr/node-notifier`)](https://github.com)** and **[notify-rust (`hoodie/notify-rust`)](https://github.com)** for cross-platform Node.js and Rust libraries triggering native macOS, Windows, and Linux desktop toast notifications.
-
-- **[Statping-ng (`statping-ng/statping-ng`)](https://github.com)** and **[Uptime Kuma (`louislam/uptime-kuma`)](https://github.com)** for self-hosted service monitoring with built-in Apprise/ntfy/Gotify/Slack/Discord notification dispatchers.
-
-
-
-**Frameworks for building custom systems**: Combine **ntfy** or **Gotify** for instant self-hosted push/desktop alerts, **Apprise** for unified multi-channel routing across team chat and mobile, **Novu** for full-stack in-app notification feeds, and **KDE Connect** for local phone-to-desktop notification sync.
-
-
-
-## How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS/hosted or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## Support & Share
-
-
-
-If you find this curated list helpful, consider supporting the project:
-
-
-
-- ⭐ **Star this repository** to help others discover it.
-
-- 🍴 **Fork & Share** it with your team, friends, or community on X/Twitter, LinkedIn, and Reddit.
-
-- ☕ **Buy me a coffee / Sponsor** my open-source work on [GitHub Sponsors](https://github.com) — featuring tiers for profile badges, README shoutouts, logo placements, and prioritized bug fixes/features!
-
-
-
-[![Sponsor @ishandutta2007](https://shields.io)](https://github.com)
-
-
-
-## Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Self-hosted notification servers (`ntfy`, `Gotify`, `Novu`) exposed to the public internet should enforce authentication tokens, access control lists (ACLs), rate limiting, and HTTPS/TLS encryption to prevent unauthorized push spam or message interception.
-
-- Avoid transmitting unencrypted secrets, passwords, or sensitive PII inside push notification payloads, as mobile OS push relays (APNs/FCM) process notification metadata during delivery.
-
-
+21. **[notify-rust](https://github.com/hoodie/notify-rust)** [![GitHub stars](https://img.shields.io/github/stars/hoodie/notify-rust?style=social&color=white)](https://github.com/hoodie/notify-rust/stargazers)  
+    🦀 Fast, type-safe Rust library for sending native desktop notifications on Linux (via D-Bus), macOS, and Windows.
 
 ---
 
+### 🧩 Architectural Patterns & Custom Systems
 
+Need to build a resilient, tailored notification architecture? Here are proven open-source blueprints:
+- **Zero-Cloud Incident Alerts**: Run `Uptime Kuma` + `ntfy` or `Gotify` for instantaneous push alerts to developer phones and desktop workstations without third-party brokers.
+- **Universal Multi-Channel Bot**: Couple `Apprise` or `Shoutrrr` with CI/CD runners to simultaneously push commit and deploy alerts to Slack channels, Discord webhooks, and desktop screens.
+- **Embedded In-App Feeds**: Deploy `Novu` with Docker for full in-app inbox components, notification preference management, and subscriber routing.
+- **Minimalist Linux Workstations**: Pair `Dunst` or `SwayNC` with `notify-send` for snappy desktop notifications triggered by shell scripts and terminal watchers.
 
-Use code with caution.
+---
 
-Made for DevOps engineers, sysadmins, full-stack developers, remote teams, and open-source contributors.
+## 📈 Star History
 
-Let's make desktop notifications and team collaboration alerts more open, instant, and self-hostable.
+[![Star History Chart](https://www.star-history.com/svg?repos=ishandutta2007/Awesome-Desktop-Notifications-Team-Collaboration&type=date&legend=top-left)](https://www.star-history.com/#ishandutta2007/Awesome-Desktop-Notifications-Team-Collaboration&type=date&legend=top-left)
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are warmly welcomed! Help keep this ecosystem comprehensive, accurate, and up-to-date:
+
+1. 🍴 **Fork the repository**.
+2. 🌿 **Create a new branch** (`git checkout -b feature/new-notification-tool`).
+3. 📝 **Add or edit entries in `README.md`** (follow existing tabular or star-badge formatting).
+4. 🔍 **Verify links, descriptions, and factual accuracy**.
+5. 🚀 **Submit a Pull Request** with a concise description of the addition or revision.
+
+---
+
+## 💖 Support & Share
+
+Thank you so much for exploring this curated guide! If this project helps streamline your notification pipelines, desktop workflows, or team alerting systems, please consider showing your support:
+
+- ⭐ **Star this repository** to improve visibility and help other engineers discover these tools.
+- 🍴 **Fork and share** the repo across your dev team, LinkedIn, X/Twitter, or Reddit.
+- ☕ **Buy me a coffee & Sponsor**: If you'd like to back ongoing open-source curation and development, consider sponsoring via the [GitHub Sponsors Dashboard](https://github.com/sponsors/ishandutta2007) — every bit of support is deeply appreciated!
+
+<p align="center">
+  <a href="https://github.com/sponsors/ishandutta2007">
+    <img src="https://img.shields.io/badge/Sponsor-%E2%9D%A4-ea4aaa?style=for-the-badge&logo=github-sponsors" alt="Sponsor on GitHub Sponsors" />
+  </a>
+</p>
+
+---
+
+## ⚠️ Disclaimer
+
+- This repository is a **community-driven curated directory** provided for educational and architectural reference purposes only. Inclusion does not imply official endorsement.
+- **Security Best Practices**: Self-hosted notification gateways (`ntfy`, `Gotify`, `Novu`, etc.) exposed over public networks should always be guarded behind HTTPS/TLS termination, access tokens, and rate limits.
+- **Confidentiality & Privacy**: Never transmit plaintext API credentials, secrets, or sensitive PII via push notification bodies, as intermediate mobile OS push relays (APNs/FCM) process message payloads during routing.
+
+---
+
+<div align="center">
+  <sub>Built with ❤️ for DevOps engineers, sysadmins, backend developers, remote teams, and open-source enthusiasts worldwide.</sub>
+</div>
