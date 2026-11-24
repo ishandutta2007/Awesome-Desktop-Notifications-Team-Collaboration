@@ -4,7 +4,7 @@
   <img src="assets/banner.svg" alt="Awesome Desktop Notifications & Team Collaboration Banner" width="100%" />
 </p>
 
-# 🔔 Awesome Desktop Notifications & Team Collaboration
+# 🔔 Awesome Desktop Notifications & Team Collaboration 🚀
 
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
@@ -16,8 +16,8 @@
 </p>
 
 <p align="center">
-  <strong>Curated Directory of Open-Source Projects, Self-Hosted Daemons &amp; SaaS Notification Infrastructure</strong><br>
-  <em>Push Notifications &bull; Desktop Alert Daemons &bull; Webhook Event Pipelines &bull; Multi-Channel Alert Routers &bull; In-App Notification Hubs</em>
+  <strong>🌟 Curated Directory of Open-Source Projects, Self-Hosted Daemons &amp; SaaS Notification Infrastructure 🌐</strong><br>
+  <em>🔔 Push Notifications &bull; 🖥️ Desktop Alert Daemons &bull; ⚡ Webhook Event Pipelines &bull; 🔀 Multi-Channel Alert Routers &bull; 📬 In-App Notification Hubs</em>
 </p>
 
 </div>
@@ -26,7 +26,7 @@
 
 ## 📌 Overview & SEO Summary
 
-Welcome to the definitive, SEO-optimized awesome list tracking the **Desktop Notifications & Team Collaboration Ecosystem**. Whether you are building real-time developer monitoring alerts, integrating cross-platform desktop toast notifications, hosting private push servers, or orchestrating high-volume multi-channel incident dispatches across Slack, Discord, SMS, and WebPush, this repository curates the industry's premier tools.
+Welcome to the definitive, SEO-optimized awesome list tracking the **Desktop Notifications & Team Collaboration Ecosystem** 🌐✨. Whether you are building real-time developer monitoring alerts, integrating cross-platform desktop toast notifications, hosting private push servers, or orchestrating high-volume multi-channel incident dispatches across Slack, Discord, SMS, and WebPush, this repository curates the industry's premier tools.
 
 ### 🎯 Key Highlights:
 - 🚀 **Self-Hosted & Privacy-Preserving Push Services**: `ntfy`, `Gotify`, and `Apprise` for zero-tracking alerting pipelines.
@@ -42,8 +42,8 @@ Welcome to the definitive, SEO-optimized awesome list tracking the **Desktop Not
 - [📊 Sector Overview & Market Dynamics](#-sector-overview--market-dynamics)
 - [🏢 SaaS/Hosted Platforms](#-saashosted-platforms)
 - [⭐ Open-Source GitHub Projects](#-open-source-github-projects)
-  - [Top Open-Source Repositories (Ranked by Stars)](#-top-open-source-repositories-ranked-by-stars)
-  - [Architectural Patterns & Custom Systems](#-architectural-patterns--custom-systems)
+  - [🌟 Top Open-Source Repositories (Ranked by Stars)](#-top-open-source-repositories-ranked-by-stars)
+  - [🧩 Architectural Patterns & Custom Systems](#-architectural-patterns--custom-systems)
 - [📈 Star History](#-star-history)
 - [🤝 How to Contribute](#-how-to-contribute)
 - [💖 Support & Share](#-support--share)
@@ -53,35 +53,35 @@ Welcome to the definitive, SEO-optimized awesome list tracking the **Desktop Not
 
 ## 📊 Sector Overview & Market Dynamics
 
-The notification infrastructure and team messaging alert sector is estimated at approximately **$4 billion to $15 billion globally**, expanding at an estimated **16%–26% CAGR**. 
+The notification infrastructure and team messaging alert sector is estimated at approximately **$4 billion to $15 billion globally**, expanding at an estimated **16%–26% CAGR** 📈🚀. 
 
-- **Concentrated Foundation (Duopoly)**: The underlying device-delivery ecosystem remains heavily concentrated under an Apple (APNs) and Google (FCM) duopoly at the operating system level, alongside mega-cap enterprise team chat platforms (Slack/Salesforce, Microsoft Teams).
-- **Fragmented Developer Infrastructure**: The multi-channel developer infrastructure, alert dispatch, and notification orchestration market is moderately fragmented. Fierce competition exists across API-first orchestration platforms, open-source self-hosted daemons, and unified routing gateways as engineering teams seek independence from proprietary vendor lock-in.
+- 🔒 **Concentrated Foundation (Duopoly)**: The underlying device-delivery ecosystem remains heavily concentrated under an Apple (APNs) and Google (FCM) duopoly at the operating system level, alongside mega-cap enterprise team chat platforms (Slack/Salesforce, Microsoft Teams).
+- 🛠️ **Fragmented Developer Infrastructure**: The multi-channel developer infrastructure, alert dispatch, and notification orchestration market is moderately fragmented. Fierce competition exists across API-first orchestration platforms, open-source self-hosted daemons, and unified routing gateways as engineering teams seek independence from proprietary vendor lock-in.
 
 ---
 
 ## 🏢 SaaS/Hosted Platforms
 
-The following SaaS and hosted notification platforms provide managed infrastructure, high deliverability rates, and cross-channel orchestration. Entries are sorted in **descending order by company size, valuation, or annual revenue**.
+The following SaaS and hosted notification platforms provide managed infrastructure, high deliverability rates, and cross-channel orchestration. Entries are sorted in **descending order by company size, valuation, or annual revenue** 💼📊.
 
 | Company / Product | Size (Valuation / Revenue) | Starting Tier Pricing | Free Tier Limits | Description |
 | :--- | :--- | :--- | :--- | :--- |
-| **[Slack Notifications & Incoming Webhooks](https://slack.com)** | **$27.7B valuation** (Acquired by Salesforce; ~$3B+ ARR) | $8.75/user/month ($7.25/user/month billed annually) | 90-day message & file history, max 10 app integrations, 1:1 huddles | Ubiquitous team collaboration alert pipeline allowing automated bots, monitoring tools, and CI/CD workflows to post interactive Block Kit notifications to team channels. |
-| **[Twilio Notify / Twilio Messaging & Push APIs](https://twilio.com)** | **$26B–$31B market cap** (~$5.83B TTM revenue) | Pay-as-you-go starting at $0.0083/message segment (US SMS) | 30-day free trial with 100 SMS messages (to verified numbers only) and $15.50 trial credit | Cloud communications API suite orchestrating multi-channel alerts across SMS, WhatsApp, Firebase/APNs mobile push, and voice webhooks. |
-| **[Discord Webhooks](https://discord.com)** | **$7B–$10B valuation** (~$950M ARR) | $2.99/month (Nitro Basic) or $9.99/month (Nitro standard) | Free forever: 2,000 chars/message, up to 10 embeds, 30 requests/min rate limit per channel, 10 MB file uploads | Zero-config HTTP webhook endpoints for streaming structured embed alerts, build statuses, and community notifications directly into Discord channels. |
-| **[OneSignal](https://onesignal.com)** | **$84.2M funding** (~$21M–$25M ARR) | $19/month (Growth Plan) | 1,000 Mobile Push MAUs, 10,000 web push subscribers, 10,000 emails/month, 3 active Journeys | High-volume customer engagement and push notification platform supporting web push, mobile push, in-app messaging, and automated audience segmentation. |
-| **[Courier](https://courier.com)** | **$57M funding** (Series B) | $0.005/send (Business Plan pay-as-you-go over free tier) | 10,000 sends/month free forever (1 send = 1 notification template across any channels) | Cloud notification API and visual workflow designer unifying push notifications, Slack/Teams messages, SMS, and transactional email with delivery routing rules. |
-| **[Knock](https://knock.app)** | **$18M funding** (Series A) | $250/month (Starter Plan) | 10,000 messages/month, 500 guide recipients/month, 500 agent credits/month | Developer-first notification infrastructure platform offering cross-channel routing, smart batching/digests, observability logs, and drop-in React/mobile feed components. |
-| **[Novu Cloud](https://novu.co)** | **$6.6M funding** (Seed) | $30/month (Pro Plan) | 10,000 workflow runs/month, 5 workflows, 2 environments, 3 team members, 24-hr activity retention | Managed cloud edition of Novu providing an embeddable `<Inbox />` component, multi-channel workflow orchestration (push, email, SMS, chat), and user preference centers. |
-| **[MagicBell](https://magicbell.com)** | **$20M valuation** ($4.7M funding, ~$1.2M ARR) | $249/month (Startup Plan) | 1,000 deliveries/month, 1 project, unlimited users & team members | Embeddable notification inbox and real-time push infrastructure featuring multi-device read-state synchronization, smart delivery preferences, and WebSocket updates. |
-| **[Pushbullet](https://pushbullet.com)** | **$1.62M funding** (Seed / Bootstrapped) | $4.99/month or $39.99/year ($3.33/month) (Pro Plan) | 100 SMS messages/month, 500 pushes/month, 25 MB max file size, 2 GB total cloud storage | Cross-device notification mirroring and quick-link/file-pushing service bridging Android notifications, SMS replies, and desktop browsers. |
-| **[Pushover](https://pushover.net)** | **Bootstrapped / Profitable Micro-SaaS** (Pushover LLC) | $4.99 one-time purchase per platform (iOS, Android, Desktop) | 30-day free trial on apps; developer token allows up to 10,000 messages/month | Simple, reliable cross-platform push notification service delivering real-time alerts to iOS, Android, and desktop browsers via a straightforward HTTP REST API and email gateway. |
+| **[Slack Notifications & Incoming Webhooks](https://slack.com)** 💬 | **$27.7B valuation** (Acquired by Salesforce; ~$3B+ ARR) | $8.75/user/month ($7.25/user/month billed annually) | 90-day message & file history, max 10 app integrations, 1:1 huddles | Ubiquitous team collaboration alert pipeline allowing automated bots, monitoring tools, and CI/CD workflows to post interactive Block Kit notifications to team channels. |
+| **[Twilio Notify / Twilio Messaging & Push APIs](https://twilio.com)** 📱 | **$26B–$31B market cap** (~$5.83B TTM revenue) | Pay-as-you-go starting at $0.0083/message segment (US SMS) | 30-day free trial with 100 SMS messages (to verified numbers only) and $15.50 trial credit | Cloud communications API suite orchestrating multi-channel alerts across SMS, WhatsApp, Firebase/APNs mobile push, and voice webhooks. |
+| **[Discord Webhooks](https://discord.com)** 🎮 | **$7B–$10B valuation** (~$950M ARR) | $2.99/month (Nitro Basic) or $9.99/month (Nitro standard) | Free forever: 2,000 chars/message, up to 10 embeds, 30 requests/min rate limit per channel, 10 MB file uploads | Zero-config HTTP webhook endpoints for streaming structured embed alerts, build statuses, and community notifications directly into Discord channels. |
+| **[OneSignal](https://onesignal.com)** 📣 | **$84.2M funding** (~$21M–$25M ARR) | $19/month (Growth Plan) | 1,000 Mobile Push MAUs, 10,000 web push subscribers, 10,000 emails/month, 3 active Journeys | High-volume customer engagement and push notification platform supporting web push, mobile push, in-app messaging, and automated audience segmentation. |
+| **[Courier](https://courier.com)** 🚀 | **$57M funding** (Series B) | $0.005/send (Business Plan pay-as-you-go over free tier) | 10,000 sends/month free forever (1 send = 1 notification template across any channels) | Cloud notification API and visual workflow designer unifying push notifications, Slack/Teams messages, SMS, and transactional email with delivery routing rules. |
+| **[Knock](https://knock.app)** 🚪 | **$18M funding** (Series A) | $250/month (Starter Plan) | 10,000 messages/month, 500 guide recipients/month, 500 agent credits/month | Developer-first notification infrastructure platform offering cross-channel routing, smart batching/digests, observability logs, and drop-in React/mobile feed components. |
+| **[Novu Cloud](https://novu.co)** 📬 | **$6.6M funding** (Seed) | $30/month (Pro Plan) | 10,000 workflow runs/month, 5 workflows, 2 environments, 3 team members, 24-hr activity retention | Managed cloud edition of Novu providing an embeddable `<Inbox />` component, multi-channel workflow orchestration (push, email, SMS, chat), and user preference centers. |
+| **[MagicBell](https://magicbell.com)** 🔔 | **$20M valuation** ($4.7M funding, ~$1.2M ARR) | $249/month (Startup Plan) | 1,000 deliveries/month, 1 project, unlimited users & team members | Embeddable notification inbox and real-time push infrastructure featuring multi-device read-state synchronization, smart delivery preferences, and WebSocket updates. |
+| **[Pushbullet](https://pushbullet.com)** 📲 | **$1.62M funding** (Seed / Bootstrapped) | $4.99/month or $39.99/year ($3.33/month) (Pro Plan) | 100 SMS messages/month, 500 pushes/month, 25 MB max file size, 2 GB total cloud storage | Cross-device notification mirroring and quick-link/file-pushing service bridging Android notifications, SMS replies, and desktop browsers. |
+| **[Pushover](https://pushover.net)** ⚡ | **Bootstrapped / Profitable Micro-SaaS** (Pushover LLC) | $4.99 one-time purchase per platform (iOS, Android, Desktop) | 30-day free trial on apps; developer token allows up to 10,000 messages/month | Simple, reliable cross-platform push notification service delivering real-time alerts to iOS, Android, and desktop browsers via a straightforward HTTP REST API and email gateway. |
 
 ---
 
 ## ⭐ Open-Source GitHub Projects
 
-Explore the finest self-hosted, privacy-first, and open-source notification projects. All repositories below are **sorted in descending order by GitHub_Stars_Count**, featuring a real-time Stars_Badge linking directly to each repository's stargazers page.
+Explore the finest self-hosted, privacy-first, and open-source notification projects 🌟💻. All repositories below are **sorted in descending order by GitHub_Stars_Count**, featuring a real-time Stars_Badge linking directly to each repository's stargazers page.
 
 ### 🌟 Top Open-Source Repositories (Ranked by Stars)
 
@@ -153,10 +153,10 @@ Explore the finest self-hosted, privacy-first, and open-source notification proj
 ### 🧩 Architectural Patterns & Custom Systems
 
 Need to build a resilient, tailored notification architecture? Here are proven open-source blueprints:
-- **Zero-Cloud Incident Alerts**: Run `Uptime Kuma` + `ntfy` or `Gotify` for instantaneous push alerts to developer phones and desktop workstations without third-party brokers.
-- **Universal Multi-Channel Bot**: Couple `Apprise` or `Shoutrrr` with CI/CD runners to simultaneously push commit and deploy alerts to Slack channels, Discord webhooks, and desktop screens.
-- **Embedded In-App Feeds**: Deploy `Novu` with Docker for full in-app inbox components, notification preference management, and subscriber routing.
-- **Minimalist Linux Workstations**: Pair `Dunst` or `SwayNC` with `notify-send` for snappy desktop notifications triggered by shell scripts and terminal watchers.
+- 🛡️ **Zero-Cloud Incident Alerts**: Run `Uptime Kuma` + `ntfy` or `Gotify` for instantaneous push alerts to developer phones and desktop workstations without third-party brokers.
+- 🤖 **Universal Multi-Channel Bot**: Couple `Apprise` or `Shoutrrr` with CI/CD runners to simultaneously push commit and deploy alerts to Slack channels, Discord webhooks, and desktop screens.
+- 📦 **Embedded In-App Feeds**: Deploy `Novu` with Docker for full in-app inbox components, notification preference management, and subscriber routing.
+- 🐧 **Minimalist Linux Workstations**: Pair `Dunst` or `SwayNC` with `notify-send` for snappy desktop notifications triggered by shell scripts and terminal watchers.
 
 ---
 
@@ -196,12 +196,12 @@ Thank you so much for exploring this curated guide! If this project helps stream
 
 ## ⚠️ Disclaimer
 
-- This repository is a **community-driven curated directory** provided for educational and architectural reference purposes only. Inclusion does not imply official endorsement.
-- **Security Best Practices**: Self-hosted notification gateways (`ntfy`, `Gotify`, `Novu`, etc.) exposed over public networks should always be guarded behind HTTPS/TLS termination, access tokens, and rate limits.
-- **Confidentiality & Privacy**: Never transmit plaintext API credentials, secrets, or sensitive PII via push notification bodies, as intermediate mobile OS push relays (APNs/FCM) process message payloads during routing.
+- 🛡️ This repository is a **community-driven curated directory** provided for educational and architectural reference purposes only. Inclusion does not imply official endorsement.
+- 🔐 **Security Best Practices**: Self-hosted notification gateways (`ntfy`, `Gotify`, `Novu`, etc.) exposed over public networks should always be guarded behind HTTPS/TLS termination, access tokens, and rate limits.
+- 🤫 **Confidentiality & Privacy**: Never transmit plaintext API credentials, secrets, or sensitive PII via push notification bodies, as intermediate mobile OS push relays (APNs/FCM) process message payloads during routing.
 
 ---
 
 <div align="center">
-  <sub>Built with ❤️ for DevOps engineers, sysadmins, backend developers, remote teams, and open-source enthusiasts worldwide.</sub>
+  <sub>Built with ❤️ for DevOps engineers, sysadmins, backend developers, remote teams, and open-source enthusiasts worldwide. 🚀✨</sub>
 </div>
