@@ -1,0 +1,149 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b0f19" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#080c14" />
+    </linearGradient>
+
+    <!-- Glowing Accent Gradients -->
+    <linearGradient id="titleGlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#6366f1" />
+      <stop offset="50%" stop-color="#a855f7" />
+      <stop offset="100%" stop-color="#ec4899" />
+    </linearGradient>
+
+    <linearGradient id="orbGrad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#4f46e5" stop-opacity="0.45" />
+      <stop offset="100%" stop-color="#4338ca" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="orbGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ec4899" stop-opacity="0.35" />
+      <stop offset="100%" stop-color="#be185d" stop-opacity="0" />
+    </linearGradient>
+
+    <linearGradient id="cardGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#1e293b" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#0f172a" stop-opacity="0.95" />
+    </linearGradient>
+
+    <!-- Grid Pattern -->
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#334155" stroke-width="0.75" stroke-opacity="0.3" />
+      <circle cx="40" cy="40" r="1" fill="#475569" fill-opacity="0.5" />
+    </pattern>
+
+    <style>
+      @keyframes floatCard1 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(-10px); }
+      }
+      @keyframes floatCard2 {
+        0%, 100% { transform: translateY(0px); }
+        50% { transform: translateY(8px); }
+      }
+      @keyframes pulseGlow {
+        0%, 100% { opacity: 0.4; }
+        50% { opacity: 0.7; }
+      }
+      @keyframes dashAnim {
+        0% { stroke-dashoffset: 160; }
+        100% { stroke-dashoffset: 0; }
+      }
+      .card-left {
+        animation: floatCard1 6s ease-in-out infinite;
+      }
+      .card-right {
+        animation: floatCard2 7s ease-in-out infinite;
+      }
+      .pulse-orb {
+        animation: pulseGlow 5s ease-in-out infinite alternate;
+      }
+      .animated-stream {
+        stroke-dasharray: 8 12;
+        animation: dashAnim 15s linear infinite;
+      }
+    </style>
+  </defs>
+
+  <!-- Background Base -->
+  <rect width="1200" height="420" fill="url(#bgGrad)" />
+  <rect width="1200" height="420" fill="url(#grid)" />
+
+  <!-- Ambient Glowing Orbs -->
+  <circle class="pulse-orb" cx="180" cy="110" r="150" fill="url(#orbGrad1)" />
+  <circle class="pulse-orb" cx="1020" cy="270" r="160" fill="url(#orbGrad2)" />
+
+  <!-- Dynamic Animated Connecting Data Streams -->
+  <path class="animated-stream" d="M 60,340 C 300,380 400,270 600,290 C 800,310 950,220 1140,260" fill="none" stroke="#6366f1" stroke-width="2" stroke-opacity="0.45" />
+  <path class="animated-stream" d="M 60,90 C 260,60 460,140 660,110 C 860,80 980,170 1140,120" fill="none" stroke="#a855f7" stroke-width="1.5" stroke-opacity="0.35" />
+
+  <!-- Animated Floating Toast 1 (Left Background Accent) -->
+  <g class="card-left" transform="translate(60, 245)">
+    <rect width="250" height="74" rx="14" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" />
+    <circle cx="38" cy="37" r="16" fill="#10b981" fill-opacity="0.2" />
+    <circle cx="38" cy="37" r="8" fill="#10b981" />
+    <text x="66" y="32" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">CI/CD Build Deployed</text>
+    <text x="66" y="52" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11">ntfy &bull; Production v2.4.0</text>
+  </g>
+
+  <!-- Animated Floating Toast 2 (Right Background Accent) -->
+  <g class="card-right" transform="translate(890, 85)">
+    <rect width="250" height="74" rx="14" fill="url(#cardGrad)" stroke="#334155" stroke-width="1.2" />
+    <circle cx="38" cy="37" r="16" fill="#6366f1" fill-opacity="0.2" />
+    <circle cx="38" cy="37" r="8" fill="#818cf8" />
+    <text x="66" y="32" fill="#f8fafc" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="13" font-weight="700">Team Alert Dispatched</text>
+    <text x="66" y="52" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="11">Apprise &bull; Discord + Gotify</text>
+  </g>
+
+  <!-- Central Foreground Content (High Contrast & Legible) -->
+  <g id="foreground-content">
+    <!-- Category Pill Badge -->
+    <g transform="translate(460, 48)">
+      <rect width="280" height="34" rx="17" fill="#1e1b4b" stroke="#6366f1" stroke-width="1.2" />
+      <circle cx="20" cy="17" r="5" fill="#22c55e" />
+      <text x="35" y="22" fill="#c7d2fe" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" letter-spacing="1">CURATED DEVELOPER ECOSYSTEM</text>
+    </g>
+
+    <!-- Main Title -->
+    <text x="600" y="145" text-anchor="middle" fill="#ffffff" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', Helvetica, Arial, sans-serif" font-size="44" font-weight="800" letter-spacing="-0.5">
+      Awesome Desktop Notifications
+    </text>
+
+    <!-- Subtitle Gradient Highlight -->
+    <text x="600" y="200" text-anchor="middle" fill="url(#titleGlow)" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Inter', Helvetica, Arial, sans-serif" font-size="34" font-weight="800" letter-spacing="-0.2">
+      &amp; Team Collaboration Alerts
+    </text>
+
+    <!-- Descriptive Tagline -->
+    <text x="600" y="246" text-anchor="middle" fill="#94a3b8" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif" font-size="16" font-weight="400">
+      Self-Hosted Push Daemons &bull; Real-Time Multi-Channel Routers &bull; Notification Infrastructure
+    </text>
+
+    <!-- Feature Tags / Pills Row -->
+    <g transform="translate(185, 290)">
+      <!-- Pill 1: Webhook Alerting -->
+      <g transform="translate(0, 0)">
+        <rect width="180" height="36" rx="18" fill="#1e293b" stroke="#475569" stroke-width="1" />
+        <text x="90" y="23" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">⚡ Webhook Pipelines</text>
+      </g>
+      <!-- Pill 2: Self-Hosted Push -->
+      <g transform="translate(195, 0)">
+        <rect width="180" height="36" rx="18" fill="#1e293b" stroke="#475569" stroke-width="1" />
+        <text x="90" y="23" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">🔔 Push &amp; Toast Daemons</text>
+      </g>
+      <!-- Pill 3: In-App Inbox Engines -->
+      <g transform="translate(390, 0)">
+        <rect width="195" height="36" rx="18" fill="#1e293b" stroke="#475569" stroke-width="1" />
+        <text x="97" y="23" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">📬 In-App Notification Feeds</text>
+      </g>
+      <!-- Pill 4: Multi-Channel Orchestration -->
+      <g transform="translate(600, 0)">
+        <rect width="230" height="36" rx="18" fill="#1e293b" stroke="#475569" stroke-width="1" />
+        <text x="115" y="23" text-anchor="middle" fill="#e2e8f0" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-size="13" font-weight="600">🔄 Cross-Channel Dispatchers</text>
+      </g>
+    </g>
+  </g>
+</svg>
