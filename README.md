@@ -9,7 +9,7 @@
 <p align="center">
   <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
   <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
-  <a href="https://github.com/ishandutta2007/Awesome-Desktop-Notifications-Team-Collaboration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Desktop-Notifications-Team-Collaboration?style=social" alt="GitHub Stars" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Desktop-Notifications-Team-Collaboration/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Desktop-Notifications-Team-Collaboration?style=social" alt="GitHub_Stars" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Desktop-Notifications-Team-Collaboration/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Desktop-Notifications-Team-Collaboration?style=social" alt="GitHub Forks" /></a>
   <a href="https://github.com/ishandutta2007/Awesome-Desktop-Notifications-Team-Collaboration/blob/main/LICENSE"><img src="https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square" alt="MIT License" /></a>
   <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
@@ -81,71 +81,71 @@ The following SaaS and hosted notification platforms provide managed infrastruct
 
 ## ⭐ Open-Source GitHub Projects
 
-Explore the finest self-hosted, privacy-first, and open-source notification projects. All repositories below are **sorted in descending order by GitHub Star count**, featuring a real-time star badge linking directly to each repository's stargazers page.
+Explore the finest self-hosted, privacy-first, and open-source notification projects. All repositories below are **sorted in descending order by GitHub Stars_Count**, featuring a real-time Stars_Badge linking directly to each repository's stargazers page.
 
 ### 🌟 Top Open-Source Repositories (Ranked by Stars)
 
-1. **[n8n](https://github.com/n8n-io/n8n)** [![GitHub stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
+1. **[n8n](https://github.com/n8n-io/n8n)** [![GitHub_Stars](https://img.shields.io/github/stars/n8n-io/n8n?style=social&color=white)](https://github.com/n8n-io/n8n/stargazers)  
    ⚡ Fair-code workflow automation platform with 400+ native integrations connecting webhooks, incident alerts, CI/CD statuses, and team chat channels with visual logic.
 
-2. **[Uptime Kuma](https://github.com/louislam/uptime-kuma)** [![GitHub stars](https://img.shields.io/github/stars/louislam/uptime-kuma?style=social&color=white)](https://github.com/louislam/uptime-kuma/stargazers)  
+2. **[Uptime Kuma](https://github.com/louislam/uptime-kuma)** [![GitHub_Stars](https://img.shields.io/github/stars/louislam/uptime-kuma?style=social&color=white)](https://github.com/louislam/uptime-kuma/stargazers)  
    📈 Self-hosted monitoring tool featuring an intuitive UI, fast ping/HTTP/certificate checks, and built-in dispatch to 90+ notification services (Telegram, Discord, Slack, ntfy, Gotify, Apprise).
 
-3. **[Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)** [![GitHub stars](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=social&color=white)](https://github.com/RocketChat/Rocket.Chat/stargazers)  
+3. **[Rocket.Chat](https://github.com/RocketChat/Rocket.Chat)** [![GitHub_Stars](https://img.shields.io/github/stars/RocketChat/Rocket.Chat?style=social&color=white)](https://github.com/RocketChat/Rocket.Chat/stargazers)  
    🚀 Comprehensive open-source communications hub and team collaboration platform featuring omni-channel messaging, desktop notifications, VoIP, and enterprise-grade webhook integrations.
 
-4. **[Novu](https://github.com/novuhq/novu)** [![GitHub stars](https://img.shields.io/github/stars/novuhq/novu?style=social&color=white)](https://github.com/novuhq/novu/stargazers)  
+4. **[Novu](https://github.com/novuhq/novu)** [![GitHub_Stars](https://img.shields.io/github/stars/novuhq/novu?style=social&color=white)](https://github.com/novuhq/novu/stargazers)  
    📬 Open-source developer notification infrastructure offering a unified API, visual workflow builder, digest engine, user preference center, and embeddable React/Vue in-app notification center.
 
-5. **[Mattermost](https://github.com/mattermost/mattermost)** [![GitHub stars](https://img.shields.io/github/stars/mattermost/mattermost?style=social&color=white)](https://github.com/mattermost/mattermost/stargazers)  
+5. **[Mattermost](https://github.com/mattermost/mattermost)** [![GitHub_Stars](https://img.shields.io/github/stars/mattermost/mattermost?style=social&color=white)](https://github.com/mattermost/mattermost/stargazers)  
    💬 Open-source, self-hosted Slack alternative engineered for technical and security-conscious teams, with granular webhook payloads, slash commands, and desktop/mobile push relays.
 
-6. **[ntfy](https://github.com/binwiederhier/ntfy)** [![GitHub stars](https://img.shields.io/github/stars/binwiederhier/ntfy?style=social&color=white)](https://github.com/binwiederhier/ntfy/stargazers)  
+6. **[ntfy](https://github.com/binwiederhier/ntfy)** [![GitHub_Stars](https://img.shields.io/github/stars/binwiederhier/ntfy?style=social&color=white)](https://github.com/binwiederhier/ntfy/stargazers)  
    🔔 Simple, blazing-fast HTTP-based pub-sub notification service written in Go. Send desktop alerts or mobile push notifications via simple `curl` `PUT`/`POST` requests without sign-ups.
 
-7. **[Zulip](https://github.com/zulip/zulip)** [![GitHub stars](https://img.shields.io/github/stars/zulip/zulip?style=social&color=white)](https://github.com/zulip/zulip/stargazers)  
+7. **[Zulip](https://github.com/zulip/zulip)** [![GitHub_Stars](https://img.shields.io/github/stars/zulip/zulip?style=social&color=white)](https://github.com/zulip/zulip/stargazers)  
    🧵 Organized team chat application that blends real-time conversation with email-style threading, complete with robust incoming webhook integrations and native desktop alerts.
 
-8. **[Apprise](https://github.com/caronc/apprise)** [![GitHub stars](https://img.shields.io/github/stars/caronc/apprise?style=social&color=white)](https://github.com/caronc/apprise/stargazers)  
+8. **[Apprise](https://github.com/caronc/apprise)** [![GitHub_Stars](https://img.shields.io/github/stars/caronc/apprise?style=social&color=white)](https://github.com/caronc/apprise/stargazers)  
    🌐 Python library and microservice gateway providing a unified notification dispatch syntax across 100+ services including Discord, Telegram, Slack, ntfy, Gotify, and native desktop notifications.
 
-9. **[Gotify](https://github.com/gotify/server)** [![GitHub stars](https://img.shields.io/github/stars/gotify/server?style=social&color=white)](https://github.com/gotify/server/stargazers)  
+9. **[Gotify](https://github.com/gotify/server)** [![GitHub_Stars](https://img.shields.io/github/stars/gotify/server?style=social&color=white)](https://github.com/gotify/server/stargazers)  
    🛡️ Self-hosted WebSocket push notification server written in Go with a sleek web UI, CLI client, and Android/desktop push delivery capabilities.
 
-10. **[Prometheus Alertmanager](https://github.com/prometheus/alertmanager)** [![GitHub stars](https://img.shields.io/github/stars/prometheus/alertmanager?style=social&color=white)](https://github.com/prometheus/alertmanager/stargazers)  
+10. **[Prometheus Alertmanager](https://github.com/prometheus/alertmanager)** [![GitHub_Stars](https://img.shields.io/github/stars/prometheus/alertmanager?style=social&color=white)](https://github.com/prometheus/alertmanager/stargazers)  
     🚨 Production-grade alert handling engine that deduplicates, groups, silences, and routes monitoring metrics from Prometheus to Opsgenie, PagerDuty, Slack, email, or custom webhooks.
 
-11. **[Louis-CFM/coucou](https://github.com/Louis-CFM/coucou)** [![GitHub stars](https://img.shields.io/github/stars/Louis-CFM/coucou?style=social&color=white)](https://github.com/Louis-CFM/coucou/stargazers)  
+11. **[Louis-CFM/coucou](https://github.com/Louis-CFM/coucou)** [![GitHub_Stars](https://img.shields.io/github/stars/Louis-CFM/coucou?style=social&color=white)](https://github.com/Louis-CFM/coucou/stargazers)  
     👋 Minimalist desktop notification and peer team ping tool crafted for fast, lightweight team collaboration and instantaneous desktop awareness.
 
-12. **[node-notifier](https://github.com/mikaelbr/node-notifier)** [![GitHub stars](https://img.shields.io/github/stars/mikaelbr/node-notifier?style=social&color=white)](https://github.com/mikaelbr/node-notifier/stargazers)  
+12. **[node-notifier](https://github.com/mikaelbr/node-notifier)** [![GitHub_Stars](https://img.shields.io/github/stars/mikaelbr/node-notifier?style=social&color=white)](https://github.com/mikaelbr/node-notifier/stargazers)  
     🖥️ Flexible Node.js module to send native cross-platform desktop notifications on macOS (Notification Center), Windows (Toast / balloon), and Linux (notify-send).
 
-13. **[Dunst](https://github.com/dunst-project/dunst)** [![GitHub stars](https://img.shields.io/github/stars/dunst-project/dunst?style=social&color=white)](https://github.com/dunst-project/dunst/stargazers)  
+13. **[Dunst](https://github.com/dunst-project/dunst)** [![GitHub_Stars](https://img.shields.io/github/stars/dunst-project/dunst?style=social&color=white)](https://github.com/dunst-project/dunst/stargazers)  
     🐧 Highly customizable, lightweight notification daemon for X11 and Wayland environments supporting custom action rules, keyboard shortcuts, and script triggers.
 
-14. **[KDE Connect](https://github.com/KDE/kdeconnect-kde)** [![GitHub stars](https://img.shields.io/github/stars/KDE/kdeconnect-kde?style=social&color=white)](https://github.com/KDE/kdeconnect-kde/stargazers)  
+14. **[KDE Connect](https://github.com/KDE/kdeconnect-kde)** [![GitHub_Stars](https://img.shields.io/github/stars/KDE/kdeconnect-kde?style=social&color=white)](https://github.com/KDE/kdeconnect-kde/stargazers)  
     📲 Seamless multi-device integration utility syncing phone notifications, SMS replies, media controls, and shared clipboard securely to desktop operating systems over local Wi-Fi.
 
-15. **[web-push](https://github.com/web-push-libs/web-push)** [![GitHub stars](https://img.shields.io/github/stars/web-push-libs/web-push?style=social&color=white)](https://github.com/web-push-libs/web-push/stargazers)  
+15. **[web-push](https://github.com/web-push-libs/web-push)** [![GitHub_Stars](https://img.shields.io/github/stars/web-push-libs/web-push?style=social&color=white)](https://github.com/web-push-libs/web-push/stargazers)  
     🌐 Foundational VAPID Web Push protocol implementation for sending push notifications directly to browser runtimes without reliance on proprietary third-party proxies.
 
-16. **[Mako](https://github.com/emersion/mako)** [![GitHub stars](https://img.shields.io/github/stars/emersion/mako?style=social&color=white)](https://github.com/emersion/mako/stargazers)  
+16. **[Mako](https://github.com/emersion/mako)** [![GitHub_Stars](https://img.shields.io/github/stars/emersion/mako?style=social&color=white)](https://github.com/emersion/mako/stargazers)  
     🪟 Lightweight Wayland-native notification daemon designed specifically for Sway, wlroots, and modern minimal Wayland compositors.
 
-17. **[SwayNotificationCenter (SwayNC)](https://github.com/ErikReider/SwayNotificationCenter)** [![GitHub stars](https://img.shields.io/github/stars/ErikReider/SwayNotificationCenter?style=social&color=white)](https://github.com/ErikReider/SwayNotificationCenter/stargazers)  
+17. **[SwayNotificationCenter (SwayNC)](https://github.com/ErikReider/SwayNotificationCenter)** [![GitHub_Stars](https://img.shields.io/github/stars/ErikReider/SwayNotificationCenter?style=social&color=white)](https://github.com/ErikReider/SwayNotificationCenter/stargazers)  
     🎛️ Feature-rich, GTK-powered notification center and desktop daemon for Wayland compositors with Do-Not-Disturb toggles, notification widgets, and customizable CSS styling.
 
-18. **[Statping-ng](https://github.com/statping-ng/statping-ng)** [![GitHub stars](https://img.shields.io/github/stars/statping-ng/statping-ng?style=social&color=white)](https://github.com/statping-ng/statping-ng/stargazers)  
+18. **[Statping-ng](https://github.com/statping-ng/statping-ng)** [![GitHub_Stars](https://img.shields.io/github/stars/statping-ng/statping-ng?style=social&color=white)](https://github.com/statping-ng/statping-ng/stargazers)  
     📊 Open-source status page and monitoring server that sends outage and health check notifications across Discord, Slack, email, and webhooks.
 
-19. **[beeep](https://github.com/gen2brain/beeep)** [![GitHub stars](https://img.shields.io/github/stars/gen2brain/beeep?style=social&color=white)](https://github.com/gen2brain/beeep/stargazers)  
+19. **[beeep](https://github.com/gen2brain/beeep)** [![GitHub_Stars](https://img.shields.io/github/stars/gen2brain/beeep?style=social&color=white)](https://github.com/gen2brain/beeep/stargazers)  
     🔔 Pure Go cross-platform library for sending native desktop toast notifications and beeps across Windows, macOS, Linux, and FreeBSD.
 
-20. **[Shoutrrr](https://github.com/containrrr/shoutrrr)** [![GitHub stars](https://img.shields.io/github/stars/containrrr/shoutrrr?style=social&color=white)](https://github.com/containrrr/shoutrrr/stargazers)  
+20. **[Shoutrrr](https://github.com/containrrr/shoutrrr)** [![GitHub_Stars](https://img.shields.io/github/stars/containrrr/shoutrrr?style=social&color=white)](https://github.com/containrrr/shoutrrr/stargazers)  
     📦 Golang notification library and CLI utility tailor-made for Docker containers and cloud infrastructure to dispatch alerts across Slack, Discord, Gotify, Pushover, and Teams.
 
-21. **[notify-rust](https://github.com/hoodie/notify-rust)** [![GitHub stars](https://img.shields.io/github/stars/hoodie/notify-rust?style=social&color=white)](https://github.com/hoodie/notify-rust/stargazers)  
+21. **[notify-rust](https://github.com/hoodie/notify-rust)** [![GitHub_Stars](https://img.shields.io/github/stars/hoodie/notify-rust?style=social&color=white)](https://github.com/hoodie/notify-rust/stargazers)  
     🦀 Fast, type-safe Rust library for sending native desktop notifications on Linux (via D-Bus), macOS, and Windows.
 
 ---
